@@ -4,11 +4,11 @@ Run Kafka with docker and access it via Python
 # Get Kafka in Docker container and run it
 Get Kafka Docker container:
 ```bash
-docker pull apache/kafka:3.9.0
+docker pull apache/kafka:latest
 ```
 Run Kafka Docker container:
 ```bash
-docker run -p 9092:9092 apache/kafka:3.9.0
+docker run -p 9092:9092 apache/kafka:latest
 ```
 
 # Install kafka-python
